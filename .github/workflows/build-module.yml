@@ -5,7 +5,7 @@ on:
     inputs:
       create_release:
         description: "Create a GitHub Release after building"
-        required: true
+        required: false
         type: boolean
         default: false
       release_tag:
